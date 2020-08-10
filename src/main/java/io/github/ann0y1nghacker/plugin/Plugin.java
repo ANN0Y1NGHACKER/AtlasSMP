@@ -101,7 +101,7 @@ public final class Plugin extends JavaPlugin {
                 for (Player player : Bukkit.getOnlinePlayers()) {
                     ChatColor wColor = ChatColor.GREEN;
                     String uuid = player.getUniqueId().toString();
-                    int afkMarker = 3;
+                    int afkMarker = 10;
 
                     try {
                         Object obj = new JsonParser().parse(new FileReader("./afkCordsData.json"));
