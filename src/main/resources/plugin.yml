@@ -1,0 +1,18 @@
+name: Plugin
+version: ${project.version}
+main: io.github.ann0y1nghacker.plugin.Plugin
+api-version: 1.16
+authors: [ANN0Y1NGHACKER]
+description: Plugins with spigot
+website: ANN0Y1NGHACKER.github.io
+commands:
+  freecam:
+    description: Toggle FreeCam
+  freecam-ws:
+    description: Whitelist players to FreeCam
+    permission: freecam-ws.use
+  plrData:
+    description: Edit Player Data
+    permission: plrData.use
+#  test:
+#    description: Test
