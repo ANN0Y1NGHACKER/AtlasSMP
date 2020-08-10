@@ -144,9 +144,7 @@ public class NPC {
             npc.getDataWatcher().set(DataWatcherRegistry.a.a(16), (byte)127);
             ((CraftPlayer) player).getHandle().playerConnection.sendPacket(new PacketPlayOutEntityMetadata(npc.getId(), npc.getDataWatcher(), true));
             if (remove) {
-                Bukkit.getScheduler().runTaskLater(plugin, task -> {
-                    connection.sendPacket(new PacketPlayOutPlayerInfo(PacketPlayOutPlayerInfo.EnumPlayerInfoAction.REMOVE_PLAYER, npc));
-                }, 10);
+                Bukkit.getScheduler().runTaskLater(plugin, task -> connection.sendPacket(new PacketPlayOutPlayerInfo(PacketPlayOutPlayerInfo.EnumPlayerInfoAction.REMOVE_PLAYER, npc)), 10);
             }
         }
     }

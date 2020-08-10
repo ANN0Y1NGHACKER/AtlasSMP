@@ -59,7 +59,7 @@ public class TabManager {
                         }
                     }
 
-                    count++;;
+                    count++;
 
                 } catch (Exception e) {
                     e.printStackTrace();

@@ -11,7 +11,7 @@ import java.io.IOException;
 public class OnPlayerChat implements Listener {
 
     @EventHandler
-    public void onPlayerChat(AsyncPlayerChatEvent e) throws IOException {
+    public void onPlayerChat(AsyncPlayerChatEvent e) {
         e.setFormat(e.getPlayer().getDisplayName() + ChatColor.WHITE + " » " + e.getMessage());
     }
 }
