@@ -1,5 +1,6 @@
-package io.github.ann0y1nghacker.plugin;
+package io.github.ann0y1nghacker.plugin.modules;
 
+import io.github.ann0y1nghacker.plugin.Plugin;
 import net.minecraft.server.v1_16_R1.ChatComponentText;
 import net.minecraft.server.v1_16_R1.PacketPlayOutPlayerListHeaderFooter;
 import net.minecraft.server.v1_16_R1.PlayerConnection;

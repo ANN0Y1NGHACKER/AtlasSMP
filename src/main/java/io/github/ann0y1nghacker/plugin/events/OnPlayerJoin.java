@@ -1,10 +1,9 @@
 package io.github.ann0y1nghacker.plugin.events;
 
 import com.google.gson.*;
-import io.github.ann0y1nghacker.plugin.NPC;
+import io.github.ann0y1nghacker.plugin.modules.NPC;
 
 import io.github.ann0y1nghacker.plugin.Plugin;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

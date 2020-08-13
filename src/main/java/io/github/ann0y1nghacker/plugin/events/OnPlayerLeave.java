@@ -1,6 +1,6 @@
 package io.github.ann0y1nghacker.plugin.events;
 
-import io.github.ann0y1nghacker.plugin.NPC;
+import io.github.ann0y1nghacker.plugin.modules.NPC;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

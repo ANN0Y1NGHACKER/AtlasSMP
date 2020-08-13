@@ -1,7 +1,7 @@
 package io.github.ann0y1nghacker.plugin.commands;
 
 import com.google.gson.*;
-import io.github.ann0y1nghacker.plugin.NPC;
+import io.github.ann0y1nghacker.plugin.modules.NPC;
 import io.github.ann0y1nghacker.plugin.Plugin;
 import org.bukkit.GameMode;
 import org.bukkit.Location;

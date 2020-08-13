@@ -1,10 +1,11 @@
-package io.github.ann0y1nghacker.plugin;
+package io.github.ann0y1nghacker.plugin.modules;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.mojang.authlib.GameProfile;
 
 import com.mojang.authlib.properties.Property;
+import io.github.ann0y1nghacker.plugin.Plugin;
 import net.minecraft.server.v1_16_R1.*;
 
 import org.bukkit.Bukkit;
